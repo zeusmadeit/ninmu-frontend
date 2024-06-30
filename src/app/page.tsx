@@ -1,6 +1,9 @@
 import {useTranslations} from 'next-intl';
- 
-export default function Index() {
-  const t = useTranslations('Index');
-  return <h1>{t('title')}</h1>;
+import {redirect} from 'next/navigation';
+
+
+export default function IndexPage() {
+  redirect('/welcome');
+  // const t = useTranslations('Index');
+  // return <h1>{t('title')}</h1>;
 }

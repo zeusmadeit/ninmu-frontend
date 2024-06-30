@@ -7,11 +7,21 @@
       "logout": "Logout",
       "secret": "Secret page for logged in users"
     },
+    "Landing": {
+      "title": "Landing Page"
+    },
     "LocaleLayout": {
       "title": "Ninmu"
     },
     "Login": {
       "title": "Login",
+      "username": "Username",
+      "password": "Password",
+      "submit": "Login",
+      "error": "{error, select, CredentialsSignin {Invalid username or password} other {Unknown error}}"
+    },
+    "Register": {
+      "title": "Register",
       "username": "Username",
       "password": "Password",
       "submit": "Login",

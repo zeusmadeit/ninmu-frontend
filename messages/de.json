@@ -7,10 +7,20 @@
       "logout": "Abmelden",
       "secret": "Geheime Seite für angemeldete Benutzer"
     },
+    "Landing": {
+      "title": "Landing Page"
+    },
     "LocaleLayout": {
       "title": "Ninmu"
     },
     "Login": {
+      "title": "Anmelden",
+      "username": "Benutzername",
+      "password": "Passwort",
+      "submit": "Anmelden",
+      "error": "{error, select, CredentialsSignin {Ungültiger Benutzername oder Passwort} other {Unbekannter Fehler}}"
+    },
+    "Register": {
       "title": "Anmelden",
       "username": "Benutzername",
       "password": "Passwort",
