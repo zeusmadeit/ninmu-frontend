@@ -2,3 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.landing-page-body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+      to bottom,
+      #e9f9fe, /* Light blue */
+      #0581bb  /* Dark blue */
+    );
+  }
+  
+  @layer utilities {
+    .text-balance {
+      text-wrap: balance;
+    }
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: #000;
+    font-size: 29px;
+  }
+  
