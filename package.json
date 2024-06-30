@@ -10,7 +10,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@heroicons/react": "^2.1.4",
+    "@mui/icons-material": "^5.15.21",
+    "@mui/material": "^5.15.21",
     "@radix-ui/react-select": "^2.1.1",
     "axios": "^1.7.2",
     "clsx": "^2.1.1",
