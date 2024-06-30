@@ -1,37 +1,40 @@
 {
-    "Index": {
-      "title": "Startseite",
-      "loggedIn": "Angemeldet als {username}",
-      "loggedOut": "Du bist abgemeldet.",
-      "login": "Anmelden",
-      "logout": "Abmelden",
-      "secret": "Geheime Seite für angemeldete Benutzer"
-    },
-    "Landing": {
-      "title": "Landing Page"
-    },
-    "LocaleLayout": {
-      "title": "Ninmu"
-    },
-    "Login": {
-      "title": "Anmelden",
-      "username": "Benutzername",
-      "password": "Passwort",
-      "submit": "Anmelden",
-      "error": "{error, select, CredentialsSignin {Ungültiger Benutzername oder Passwort} other {Unbekannter Fehler}}"
-    },
-    "Register": {
-      "title": "Anmelden",
-      "username": "Benutzername",
-      "password": "Passwort",
-      "submit": "Anmelden",
-      "error": "{error, select, CredentialsSignin {Ungültiger Benutzername oder Passwort} other {Unbekannter Fehler}}"
-    },
-    "LocaleSwitcher": {
-      "switchLocale": "Zu {locale, select, de {Deutsch} en {Englisch} other {Unbekannt}} wechseln"
-    },
-    "Secret": {
-      "title": "Geheime Seite",
-      "description": "Diese Seite ist nur für angemeldete Benutzer sichtbar."
-    }
+  "AppLayout": {
+    "home": "Start",
+    "logout": "Abmelden",
+    "profile": "Profil"
+  },
+  "HomePage": {
+    "title": "Start"
+  },
+  "LocaleSwitcher": {
+    "de": "Deutsch",
+    "en": "English",
+    "label": "Sprache"
+  },
+  "LoginPage": {
+    "credentials": "Anmeldedaten: jane@doe.com / next-intl",
+    "description": "Bitte geben Sie Ihre Daten ein.",
+    "email": "Email",
+    "invalidCredentials": "Bitte überprüfen Sie Ihre Anmeldedaten.",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "invalidPassword": "Bitte geben Sie ein Passwort ein.",
+    "login": "Anmelden",
+    "password": "Passwort",
+    "title": "Willkommen zurück"
+  },
+  "RegisterPage": {
+    "credentials": "Anmeldedaten: jane@doe.com / next-intl",
+    "description": "Bitte geben Sie Ihre Daten ein.",
+    "email": "Email",
+    "invalidCredentials": "Bitte überprüfen Sie Ihre Anmeldedaten.",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "invalidPassword": "Bitte geben Sie ein Passwort ein.",
+    "register": "Sign up",
+    "password": "Passwort",
+    "title": "Welcome back"
+  },
+  "ProfilePage": {
+    "title": "Profil"
   }
+}

@@ -28,10 +28,7 @@ export type LoginFormResult =
       errors: LoginFormErrors;
     };
 
-async function loginAction(
-  prev: unknown,
-  data: FormData
-): Promise<LoginFormResult> {
+async function loginAction(prev: unknown, data: FormData): Promise<LoginFormResult> {
   'use server';
   const t = await getTranslations('LoginPage');
   const values = Object.fromEntries(data);

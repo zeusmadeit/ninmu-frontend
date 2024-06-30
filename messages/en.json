@@ -1,37 +1,40 @@
 {
-    "Index": {
-      "title": "Home",
-      "loggedIn": "Logged in as {username}",
-      "loggedOut": "You are logged out.",
-      "login": "Login",
-      "logout": "Logout",
-      "secret": "Secret page for logged in users"
-    },
-    "Landing": {
-      "title": "Landing Page"
-    },
-    "LocaleLayout": {
-      "title": "Ninmu"
-    },
-    "Login": {
-      "title": "Login",
-      "username": "Username",
-      "password": "Password",
-      "submit": "Login",
-      "error": "{error, select, CredentialsSignin {Invalid username or password} other {Unknown error}}"
-    },
-    "Register": {
-      "title": "Register",
-      "username": "Username",
-      "password": "Password",
-      "submit": "Login",
-      "error": "{error, select, CredentialsSignin {Invalid username or password} other {Unknown error}}"
-    },
-    "LocaleSwitcher": {
-      "switchLocale": "Switch to {locale, select, de {German} en {English} other {Unknown}}"
-    },
-    "Secret": {
-      "title": "Secret page",
-      "description": "This page is only visible for logged in users."
-    }
+  "AppLayout": {
+    "home": "Home",
+    "logout": "Logout",
+    "profile": "Profile"
+  },
+  "HomePage": {
+    "title": "Home"
+  },
+  "LocaleSwitcher": {
+    "de": "Deutsch",
+    "en": "English",
+    "label": "Language"
+  },
+  "LoginPage": {
+    "credentials": "Credentials: jane@doe.com / next-intl",
+    "description": "Please enter your details.",
+    "email": "Email",
+    "invalidCredentials": "Please check your credentials.",
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidPassword": "Please enter a password.",
+    "login": "Sign in",
+    "password": "Password",
+    "title": "Welcome back"
+  },
+  "RegisterPage": {
+    "credentials": "Credentials: jane@doe.com / next-intl",
+    "description": "Please enter your details.",
+    "email": "Email",
+    "invalidCredentials": "Please check your credentials.",
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidPassword": "Please enter a password.",
+    "register": "Sign up",
+    "password": "Password",
+    "title": "Welcome back"
+  },
+  "ProfilePage": {
+    "title": "Profile"
   }
+}
