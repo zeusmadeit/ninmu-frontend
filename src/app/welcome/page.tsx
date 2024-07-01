@@ -11,7 +11,7 @@ import DesktopNavigationMenu from '@/components/nav/DesktopNav';
 export default function LandingPage() {
   // const t = useTranslations('Landing');
   return(
-    <div>
+    <div className='w-full overflow-x-hidden'>
         {/* <Header /> */}
         <DesktopNavigationMenu/>
       <main>
