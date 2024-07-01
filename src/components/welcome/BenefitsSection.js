@@ -26,8 +26,7 @@ const benefits = [
 
 const BenefitsSection = () => {
   return (
-    <div className="py-0">
-      <div className="container mx-auto text-center py-6">
+    <div className="landing-page-benefits-section px-5 md:px-10 min-h-screen text-center flex flex-col justify-center"> 
         <h2 className="text-3xl font-bold mb-4 text-sky-900">BENEFITS</h2>
         <h3 className="text-xl mb-8">Start your journey for achieving more, together !</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -41,7 +40,6 @@ const BenefitsSection = () => {
             </div>
           ))}
         </div>
-      </div>
     </div>
   );
 };

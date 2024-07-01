@@ -9,6 +9,7 @@ import Button from '@/components/ui/FormButton';
 import FormField from '@/components/ui/FormField';
 import LocaleSwitcher from '@/components/ui/LocaleSwitcher';
 import {loginUser} from '@/services/session';
+import DesktopNavigationMenu from '@/components/nav/DesktopNav';
 
 const loginFormSchema = z.object({
   email: z.string().email(),
@@ -67,9 +68,7 @@ export default function LoginPage() {
 
   return (
     <>
-      <div className="absolute right-8 top-8">
-        <LocaleSwitcher />
-      </div>
+      {/* <DesktopNavigationMenu/> */}
       <LoginForm
         key={locale}
         action={loginAction}

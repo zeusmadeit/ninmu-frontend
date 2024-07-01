@@ -1,25 +1,21 @@
 'use client';
-
+import React from 'react';
+import * as NavigationMenu from '@radix-ui/react-navigation-menu';
+import {useLocale, useTranslations} from 'next-intl';
 import clsx from 'clsx';
-import Link from 'next/link';
+import NextLink from 'next/link';
 import {usePathname} from 'next/navigation';
 import {ComponentProps} from 'react';
 
-export default function NavLink({href, ...rest}: ComponentProps<typeof Link>) {
+const Link = ({ href, ...props }:any) => {
   const pathname = usePathname();
-  const isActive = pathname === href;
+  const isActive = href === pathname;
 
   return (
-    <Link
-      aria-current={isActive ? 'page' : undefined}
-      className={clsx(
-        'border-b-2 border-transparent pb-2 pt-2 font-semibold transition-colors',
-        isActive
-          ? 'border-b-slate-900 text-slate-900'
-          : 'text-slate-600 hover:border-b-slate-300 hover:text-slate-900'
-      )}
-      href={href}
-      {...rest}
-    />
+    <NavigationMenu.Link asChild active={isActive}>
+      <NextLink href={href} className="NavigationMenuLink" {...props} />
+    </NavigationMenu.Link>
   );
-}
+};
+
+export default Link;

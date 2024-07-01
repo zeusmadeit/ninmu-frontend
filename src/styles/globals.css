@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-.landing-page-body {
+.landing-page-benefits-section {
     color: rgb(var(--foreground-rgb));
     background: linear-gradient(
       to bottom,
@@ -12,6 +12,10 @@
     );
   }
   
+  body {
+    background-color: #F6F6F9;
+  }
+
   @layer utilities {
     .text-balance {
       text-wrap: balance;

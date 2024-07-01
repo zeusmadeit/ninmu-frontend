@@ -10,6 +10,11 @@
   "LocaleSwitcher": {
     "de": "Deutsch",
     "en": "English",
+    "ar": "Arabic",
+    "ko": "Korean",
+    "ja": "Japanese",
+    "zh": "Chinese",
+    "es": "Espanol",
     "label": "Language"
   },
   "LoginPage": {

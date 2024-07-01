@@ -6,12 +6,14 @@ import MainLandingPage from '../../components/welcome/Main_landing_page';
 import BenefitsSection from '../../components/welcome/BenefitsSection';
 import Slider from '../../components/welcome/Slider';
 import Footer from '../../components/welcome/Footer';
+import DesktopNavigationMenu from '@/components/nav/DesktopNav';
 
 export default function LandingPage() {
-  const t = useTranslations('Landing');
+  // const t = useTranslations('Landing');
   return(
-    <div className="landing-page-body">
-        <Header />
+    <div>
+        {/* <Header /> */}
+        <DesktopNavigationMenu/>
       <main>
         <MainLandingPage />
         <BenefitsSection />
