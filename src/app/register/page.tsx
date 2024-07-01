@@ -7,7 +7,6 @@ import {z} from 'zod';
 import RegisterForm from './RegisterForm';
 import Button from '@/components/ui/FormButton';
 import FormField from '@/components/ui/FormField';
-import LocaleSwitcher from '@/components/ui/LocaleSwitcher';
 import {registerUser} from '@/services/session';
 import DesktopNavigationMenu from '@/components/nav/DesktopNav';
 import Image from 'next/image';

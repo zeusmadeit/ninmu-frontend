@@ -7,7 +7,6 @@ import {z} from 'zod';
 import LoginForm from './LoginForm';
 import Button from '@/components/ui/FormButton';
 import FormField from '@/components/ui/FormField';
-import LocaleSwitcher from '@/components/ui/LocaleSwitcher';
 import {loginUser} from '@/services/session';
 import DesktopNavigationMenu from '@/components/nav/DesktopNav';
 
